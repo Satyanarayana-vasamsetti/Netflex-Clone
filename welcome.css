@@ -41,3 +41,41 @@
     text-align: center;
     margin-top: 2px;
 }
+.headdesc{
+    font-size:3.25rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 800;
+
+}
+.info{  
+    margin-top: 10px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+
+}
+.titleinfo{
+    max-width: 42%;
+    padding: 0% 2%;
+}
+.navbar{
+    max-width: 100%;
+    height: 60px;
+    background-color: black;
+}
+footer{
+    padding:5% 2%;
+    border-top: 5px solid #333;
+    color: #666;
+}
+.coln{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    column-gap: 7rem;
+}
