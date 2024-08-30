@@ -1,6 +1,6 @@
 *{
     color: #fff;
-    background-color: #222;
+    background-color: #181818;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -64,8 +64,8 @@
     background-color: black;
 }
 footer{
-    padding:5% 2%;
-    border-top: 5px solid #333;
+    padding:5% 4.5%;
+    border-top: 2px solid #333;
     color: #666;
 }
 .coln{
@@ -77,5 +77,19 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content:start;
-    column-gap: 7rem;
+    column-gap: 8.5rem;
+}
+footer p{
+    color: #737373;
+    margin-bottom:2.5rem;
+    font-size: 1rem;
+}
+footer a{
+    color: #737373;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+footer a:hover{
+    text-decoration: underline;
 }
