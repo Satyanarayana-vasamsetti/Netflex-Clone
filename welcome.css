@@ -56,13 +56,16 @@
     color: #ffffff;
 }
 .titleinfo{
-    max-width: 42%;
+    max-width: 43%;
     padding: 0% 3%;
     margin-top: 3rem;
 }
+.titleinfo span{
+    font-size: 1.1rem;
+}
 .navbar{
     max-width: 100%;
-    height: 60px;
+    height: 50px;
     background-color:black;
     position: sticky;
     top: 0;
@@ -105,7 +108,7 @@ footer a:hover{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:1rem;
+    gap:0.6rem;
     background-color:black;
 }
 .links a{
@@ -119,15 +122,17 @@ footer a:hover{
 .joinnow{
     background-color:#E50914;
     color: #ffffff;
-    padding: 9px 40px;
+    padding: 7px 35px;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 15px;
 }
 .signin{
     color: #ffffff;
-    padding: 9px 21px;
+    padding: 7px 21px;
     border: 1px solid #888;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 15px;
 }
 
