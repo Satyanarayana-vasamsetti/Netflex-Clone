@@ -92,3 +92,24 @@ body::-webkit-scrollbar{
   border: 1px solid  #A3A3A3;
   padding: 0.1px 6px;
 }
+.movie-desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.movie-desc h2 {
+  font-size: 2rem;
+  margin: 125px 0px 30px 0px;
+  color: #f1f1f1;
+}
+
+.movie-desc p {
+  max-width: 900px;
+  color: #f1f1f1;
+  font-size: medium;
+  margin-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
